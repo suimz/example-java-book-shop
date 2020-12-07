@@ -1,0 +1,20 @@
+/* slide */
+#slide{position:relative;width:780px;height:320px;overflow:hidden;}
+#slide ul{height:320px;position:absolute;}
+#slide ul li{float:left;width:780px;height:320px;overflow:hidden;position:relative;background:#000;}
+#slide ul li div{position:absolute;overflow:hidden;}
+#slide ul li img{
+	min-width:780px;
+	max-width:780px;
+	min-height:320px;
+	max-height:320px;
+}
+#slide .btnBg{position:absolute;width:780px;height:40px;left:0;bottom:0;background:#000;}
+#slide .btn{position:absolute;height:30px;left:10px;bottom:12px;}
+#slide .btn span{
+	float:left;display:inline-block;width:30px;height:30px;line-height:30px;text-align:center;font-size:16px;margin-right:10px;cursor:pointer;background:#716564;color:#ffffff;
+	border-radius:15px;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+}
+#slide .btn span.on{background:#B91919;color:#ffffff;}

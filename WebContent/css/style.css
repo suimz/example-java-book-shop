@@ -1,0 +1,397 @@
+*{
+	font-size:13px;
+	color:#5E5E5E;
+}
+body,h1,h2,h3,h4,h5,h6,p,dl,dd,form,ul,ol,pre,blockquote,textarea,input{ margin:0;}
+ul,ol,th,td,button,textarea,input{ padding:0;}
+ul,ol{list-style:none;}
+img{border:none;}
+a{text-decoration:none;color:#337AB7;}
+
+
+
+/*登录页面样式*/
+.loginbar{
+	width: 350px;
+	min-width: 350px;
+	height: 365px;
+	background-color: white;
+	padding: 20px;
+	margin-top:30px;
+}
+.loginbar .login_header{font-size: 18px;}
+
+.loginbar .login_right{
+	float:right;
+	font-weight:normal;
+}
+.loginbar hr{
+	margin-top: 10px;
+	border:none;
+	border-top:1px solid #3ed4a7;
+}
+.loginbar .login_input{padding-top:20px;}
+.loginbar .login_tips{
+	border: 1px solid #FFC266;
+	background: #FFEBCC;
+	padding:5px;
+	font-size: 10px;
+	color: #787878;
+	text-align: center;
+}
+.loginbar .login_tips i{color:#FF9900;}
+
+.loginbar .login_input .login_txt{
+	height:40px;
+	padding-left:5px;
+	width:82%;
+	border: 1px solid #d0d0d0;
+}
+.loginbar .login_lefticon{
+	display: block;
+	float: left;
+	background: #EEEEEE;
+	height:40px;
+	width: 15%;
+	text-align: center;
+	border: 1px solid #d0d0d0;
+	border-right: none;
+	line-height: 40px;
+	font-size:20px;
+}
+.loginbar .login_lefticon i{color: #949494;}
+
+.loginbar .login_btn{
+	height:40px;
+	width:100%;
+	background-color:#3ed4a7;
+	border:1px solid #2DCD9D;
+	color:#fff;
+	font-size:2em;
+	cursor:pointer;
+	margin-top:-10px;
+}
+
+/*注册页面样式*/
+#rgbar{
+	margin: 0 auto;
+	width: 1024px;
+	height: 500px;
+}
+#rgbar p{
+	font-size: 20px;
+	margin-bottom:20px;
+	margin-left: 15%;
+}
+#rgbar .rgul{
+	width: 450px;
+	float: left;
+	margin-left: 15%;
+}
+#rgbar .rgul li{margin-bottom:20px;}
+#rgbar .rgul .tips{
+	margin-top:-15px;	
+	margin-bottom:8px;
+}
+#rgbar .rgul span{
+	display: block;
+	float: left;
+	width: 80px;
+	text-align: right;
+	height: 25px;
+	line-height:30px;
+	margin-right:10px;
+	font-size:13px;
+}
+#rgbar .rgul small{
+	margin-left:10px;
+	line-height:30px;
+}
+#rgbar .rgul hr{
+	border:none;
+	border-top:1px solid #d0d0d0;
+	width: 90%
+}
+#rgbar .rgul input[type="text"]{
+	width: 280px;
+	height: 32px;
+	padding-left: 10px;
+	border: 1px solid #d0d0d0;
+}
+#rgbar .rgul input[type="password"]{
+	width: 280px;
+	height: 32px;
+	padding-left: 10px;
+	border: 1px solid #d0d0d0;
+}
+#rgbar .rgul input{
+	float: left;
+}
+#rgbar .rgul input[type="text"]:focus{border: 1px solid #3ed4a7;}
+#rgbar .rgul input[type="password"]:focus{border: 1px solid #3ed4a7;}
+
+#rgbar .rgul button[type="submit"]{
+	height:40px;
+	width:270px;
+	margin-left:5px;
+	background-color:#3ed4a7;
+	border:1px solid #2DCD9D;
+	color:#fff;
+	font-size:1.5em;
+	cursor:pointer;
+}
+#rgbar .note{
+	float: right;
+	width: 300px;
+	height: 120px;
+	border-left: 1px solid #D0D0D0;
+	padding-left: 30px;
+}
+#rgbar .note li{margin-bottom:10px;}
+
+/*首页样式*/
+#container .cateul{
+	float: left;
+	width:20%;
+	min-width: 200px;
+	margin-top:-21px;
+	border: 1px solid #3ed4a7;
+}
+#container .cateul .catehead{
+	color:white;
+	font-size:2em;
+	background-color: #3ed4a7;
+	text-align: center;
+}
+#container .cateul li{
+	font-size:15px;
+	border-top: 1px dashed #28B88D;
+	padding:4px 13px;
+}
+dl[class="bookBlock"]{
+	width: 170px;
+	padding: 5px;
+	margin: 5px 10px;
+	float: left;
+	min-height:250px;
+}
+dl[class="bookBlock"]:hover{
+	box-shadow:0 0 30px #d9d9d9;
+	border-radius: 2px;
+}
+dl[class="bookBlock"] .img{padding: 5px;}
+dl[class="bookBlock"] .img img{
+	min-width: 120px;
+	min-height: 150px;
+	width: 120px;
+	height: 150px;
+	display: block;
+	margin: 0 auto;
+}
+
+dl[class="bookBlock"] dd .unitprice{
+	color:#CC0000;
+	font-weight: bold;
+}
+dl[class="bookBlock"] dt{
+	display:block;
+	min-height:60px;
+	text-align: center;
+}
+dl[class="bookBlock"] dd .btn_buy{
+}
+
+/*搜索结果页面*/
+dl[class="bookList"]{
+	border-bottom:1px dotted #999999;
+	padding:10px;
+}
+dl[class="bookList"]:HOVER{
+	background-color: #F7F7F7;
+}
+dl[class="bookList"] dt{
+	float: left;
+	padding-right:20px;
+}
+dl[class="bookList"] dd{
+	margin-top:15px;
+}
+dl[class="bookList"] .title a{
+	color:#2e76be;
+	font-size:15px;
+}
+dl[class="bookList"] .title a:HOVER{color:#3380CC;}
+dl[class="bookList"] .price{
+	color:#CC0000;
+	font-weight: bold;
+}
+dl[class="bookList"] .intro{
+}
+
+#pager li a{
+	font-size:15px;
+	color:blue;
+}
+
+#pager li a:hover{
+	font-size:15px;
+}
+#pager li{
+	font-size:15px;
+}
+
+/*购买页面*/
+.buy{
+	min-height: 400px;
+}
+.buy .bookpic{
+	padding: 5px;
+}
+.buy .bookpic img{
+	width:130px;
+	height: 150px;
+	min-width: 130px;
+	min-height: 150px;
+}
+.buy .bookinfo{
+	padding-left:30px;
+	width:100%;
+	max-width:700px;
+	
+}
+.buy .bookinfo li{
+	margin-bottom: 10px;
+}
+.buy .bookinfo .price{
+	color:#CC0000;
+	font-weight: bold;
+}
+.buy .title{
+	font-size:15px;
+	font-weight: bold;
+}
+.buy .introbar{
+	
+}
+.buy .introbar{
+	padding:10px 20px;
+}
+.buy .introbar h3{
+	font-size:15px;
+	font-weight: bold;
+}
+.buy .introbar .introbar-content{
+	padding:10px;
+}
+.buy .introbar th{
+	width:70px;
+}
+.buy .introbar tr{
+	height:25px;
+}
+
+/*公共样式*/
+#container{
+	width:1024px;
+	margin: 0 auto;
+	min-height:400px;
+}
+#cHeader{
+	width:1024px;
+	margin: 0 auto;
+}
+.content{
+	float: left;
+	padding-left:20px;
+	min-width:800px;
+	max-width:800px;
+}
+.show_total{
+	font-size:1.3em;
+}
+.show_total i{
+	font-size:0.9em;
+	color:#CC0000;
+	font-style: normal;
+	margin-right:5px;
+	font-weight: bold;
+}
+
+/*商品板块*/
+.goodsbar{
+	margin:10px 0;
+	border:1px solid #d0d0d0;
+	border-top:2px solid #57DBB4;
+}
+.goodsbar .goodsbar-title{
+	padding-left:15px;
+	color:#666;
+	display: block;
+	height:30px;
+	line-height: 30px;
+	font-weight: bold;
+}
+.goodsbar .goodsbar-content{
+	border-top:1px solid #d0d0d0;
+	overflow: hidden;
+}
+
+/*个人中心页面样式*/
+.usermenu{
+	width:20%;
+}
+.useropt{
+	width:78%;
+	min-height:430px;
+	padding:5px;
+	padding-left:30px;
+
+}
+.useropt .updateuser{
+	width: 50%;
+}
+.useropt .updateuser input{
+	margin-bottom:10px;
+}
+
+
+/*头部页面样式*/
+.header #search{
+	margin-top:40px;
+	border:1px solid #3ed4a7;
+}
+.header #search input{border:1px solid #3ed4a7;border-right:none;}
+.header #search input[type="submit"]{background-color: #3ed4a7;}
+.header .userInfo{
+	margin-top: 40px;
+	text-align: right;
+	line-height: 20px;
+}
+.header .userInfo a{color:#5E5E5E;}
+.header .userInfo a:hover{color:#3ed4a7;}
+.header .customhr{
+	border:none;
+	border:1px solid #2DCD9D;
+	margin-bottom:20px;
+}
+.header select{
+	width:100px;
+	border:2px solid #3ed4a7;
+	border-left:1px dotted #f0f0f0;
+}
+
+
+/*脚部页面样式*/
+.footer{
+	width:100%;
+	padding:0 0 10px 0;
+	color:#5E5E5E;
+	text-align:center;
+	clear:both;	
+}
+.footer hr{
+	border:none;
+	border-top:1px solid #d0d0d0;
+}
+.footer a{color: #5E5E5E;}
+.footer a:HOVER {color: #337AB7;}

@@ -1,0 +1,52 @@
+body{
+	font-family:"宋体";
+}
+
+.page-header h1{
+	margin-top: 5px;
+	font-size: 18px;
+}
+.page-header{
+	margin-top: 0;
+}
+.nav-tabs {
+    margin-bottom: 10px;
+}
+
+.navbar-default {
+    background-color: #18bc9c;
+    border-color: #1CD4AF;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: #1CD4AF;
+}
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+    background-color: #1CD4AF;
+    border-color: #18bc9c;
+}
+.navbar-default .dropdown-menu {
+    background-color: #1CD4AF;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background-color: #1CD4AF;
+}
+
+/*tag*/
+.taglist{
+    padding-top: 25px;
+}
+.taglist .alert{
+    margin: 0 15px 15px 0;
+}
+/*padding*/
+.pad0{
+    padding: 0;
+}
+
+/**登录页面样式**/
+.loginbar{
+	margin: 0 auto;
+	margin-top: 13%;
+	max-width:350px;
+	min-width: 350px;
+}
